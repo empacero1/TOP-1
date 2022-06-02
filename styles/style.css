@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Gentium Book Basic', serif;
+    color: #333;
+    background-color: #f5f4f4;
+}
+
+
+
+.container{
+    width: 100rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 1rem;
+}
+.header-container{
+    grid-column: 2/3;
+    height: auto;
+}8
+.main-header{
+    font-size: 3.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 3rem 2rem 2rem 1rem;
+    font-family: 'Caveat', cursive;
+   
+}
+.description-text{
+    font-size: 1.5rem;
+}
+.post-header{
+    font-size: 2.8rem;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+}
+.image-container{
+    grid-column: 1/2;
+}
+.photo{
+width: 44rem;
+padding: 1rem;
+
+    
+}
+
+.method ol{
+    padding: 2rem;
+    grid-column: 2/3;
+}
+
+
+.ingredients{
+    background-color: #f7ea88;
+    border-radius: 10px;
+    padding: 2rem 2rem ;
+    max-height: 38rem;
+    grid-column: 1/2;
+    margin: 1rem;
+}
+.ingredients-items{
+    margin-bottom: 1.2rem;
+
+}
+li{
+    font-size: 1.3rem;
+list-style: none;
+line-height: 1.4;
+margin-bottom: 1.5rem;
+}
+
+.method{
+    
+    background-color:#e0dfde ;
+    border-radius: 10px;
+    padding: 2rem;
+    
+}
